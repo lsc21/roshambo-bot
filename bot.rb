@@ -60,6 +60,7 @@ class Bot
 
 end
 
+STDOUT.sync = true
 
 bot = Bot.new
 
