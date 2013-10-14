@@ -15,7 +15,7 @@ class Bot
   def calculate_move
     if @history.count < 5
       %w{ rock paper scissors }.sample
-    else @history.count < 15
+    else
       defeat most_frequent_enemy_play
     end
   end
